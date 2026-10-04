@@ -1,0 +1,49 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Streamlit Local Cache & Credentials
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
